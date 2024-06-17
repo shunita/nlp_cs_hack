@@ -2,7 +2,7 @@
 
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 
-# takes a few minutes to download the models.
+# It takes a few minutes to download the models.
 model = T5ForConditionalGeneration.from_pretrained("Unbabel/gec-t5_small")
 tokenizer = T5Tokenizer.from_pretrained('t5-small')
 
